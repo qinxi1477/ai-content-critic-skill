@@ -54,7 +54,7 @@ mkdir -p ~/.codex/skills
 cp -R skills/ai-content-critic ~/.codex/skills/
 ```
 
-If you publish this repository as a Codex plugin, the `.codex-plugin/plugin.json` manifest points Codex at `./skills/`.
+If you publish this repository as a Codex plugin, the `codex-plugin/plugin.json` manifest points Codex at `./skills/`.
 
 Then ask Codex:
 
@@ -85,7 +85,7 @@ If the skill is not found:
 - For Claude Code personal installs, confirm it was copied to `~/.claude/skills/ai-content-critic/SKILL.md`.
 - For Codex personal installs, confirm it was copied to `~/.codex/skills/ai-content-critic/SKILL.md`.
 - Restart the agent session if the skill directory did not exist when the session began.
-- If installing as a plugin, confirm `.codex-plugin/plugin.json` or `.claude-plugin/plugin.json` is present in the repository and that the manifest points to `./skills/`.
+- If installing as a plugin, confirm `.codex-plugin/plugin.json` or `claude-plugin/plugin.json` is present in the repository and that the manifest points to `./skills/`.
 
 ## Example Prompts
 
@@ -128,9 +128,9 @@ When the user asks for `吐槽`, `锐评`, `毒舌`, `别客气`, or `roast`, th
 
 ```text
 .
-├── .claude-plugin/
+├── claude-plugin/
 │   └── plugin.json
-├── .codex-plugin/
+├── codex-plugin/
 │   └── plugin.json
 ├── examples/
 │   ├── client-ready-mode.md
