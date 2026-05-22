@@ -32,7 +32,7 @@
       "Use ai-content-critic to review this AI-generated article and tell me what feels fake, weak, or generic.",
       "Use ai-content-critic to roast this image and give me concrete fixes."
     ],
-    "websiteURL": "https://github.com/YOUR-USERNAME/ai-content-critic",
+    "websiteURL": "https://github.com/qinxi1477/ai-content-critic-skill",
     "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
     "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
     "brandColor": "#7C3AED",
