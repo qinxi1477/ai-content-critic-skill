@@ -52,7 +52,7 @@ mkdir -p ~/.codex/skills
 cp -R skills/ai-content-critic ~/.codex/skills/
 ```
 
-如果你把这个仓库发布为 Codex 插件，`.codex-plugin/plugin.json` 已经指向了 `./skills/` 目录。
+如果你把这个仓库发布为 Codex 插件，`codex-plugin/plugin.json` 已经指向了 `./skills/` 目录。
 
 然后在 Codex 中使用：
 
@@ -88,7 +88,7 @@ Agent 应该能识别 `ai-content-critic`，或者直接给出符合“总体判
 - Claude Code 个人级安装时，确认文件位于 `~/.claude/skills/ai-content-critic/SKILL.md`。
 - Codex 个人级安装时，确认文件位于 `~/.codex/skills/ai-content-critic/SKILL.md`。
 - 如果会话启动时 skill 目录还不存在，重启 Agent 会话。
-- 如果按插件方式安装，确认 `.codex-plugin/plugin.json` 或 `.claude-plugin/plugin.json` 已进入仓库，并且 manifest 指向 `./skills/`。
+- 如果按插件方式安装，确认 `codex-plugin/plugin.json` 或 `claude-plugin/plugin.json` 已进入仓库，并且 manifest 指向 `./skills/`。
 
 ## 示例提示词
 
@@ -167,9 +167,9 @@ Agent 应该能识别 `ai-content-critic`，或者直接给出符合“总体判
 
 ```text
 .
-├── .claude-plugin/
+├── claude-plugin/
 │   └── plugin.json
-├── .codex-plugin/
+├── codex-plugin/
 │   └── plugin.json
 ├── examples/
 │   ├── client-ready-mode.md
@@ -197,19 +197,6 @@ Agent 应该能识别 `ai-content-critic`，或者直接给出符合“总体判
 - 可以幽默吐槽，但不能胡说
 - 每个主要问题都要给出可执行修改方案
 
-## 发布前需要修改
-
-如果你要发布到自己的 GitHub 仓库，请把下面两个文件里的 `YOUR-USERNAME` 替换成你的 GitHub 用户名：
-
-- `.codex-plugin/plugin.json`
-- `.claude-plugin/plugin.json`
-
-也可以根据需要修改：
-
-- 插件作者名
-- 仓库地址
-- 版本号
-- README 中的示例提示词
 
 ## 许可证
 
