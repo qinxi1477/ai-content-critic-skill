@@ -160,3 +160,7 @@ When the user asks for `吐槽`, `锐评`, `毒舌`, `别客气`, or `roast`, th
 ## License
 
 MIT License. See `LICENSE`.
+
+## Citation
+
+If you use this skill in research workflows, paper writing, poster review, or benchmark artifact review, please cite this repository.
