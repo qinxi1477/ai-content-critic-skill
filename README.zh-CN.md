@@ -1,6 +1,6 @@
 # AI Content Critic
 
-一个用于识别 AI 生成内容问题的尖锐但有证据的审稿 Skill：发现文章、图片、PPT、海报和 UI 里的 AI 味，并转化成具体修改方案。
+一个用于识别 AI 生成内容问题的尖锐但有有理有据的审稿 Skill：发现文章、图片、PPT、海报和 UI 里的 AI 味，并转化成具体修改方案。
 
 AI Content Critic 是一个同时面向 Claude Code 和 Codex 的跨 Agent Skill，用来审查 AI 生成的文章、图片、PPT、海报、UI 截图以及图文混合内容。
 
@@ -79,8 +79,7 @@ What skills are available?
 ```text
 使用 ai-content-critic 审查这句话：“在当今快速发展的时代，创新比以往任何时候都更加重要。”
 ```
-
-预期结果：Agent 应该能识别 `ai-content-critic`，或者直接给出符合“总体判断、问题、原因、修改建议”结构的审稿输出。
+Agent 应该能识别 `ai-content-critic`，或者直接给出符合“总体判断、问题、原因、修改建议”结构的审稿输出。
 
 如果 Skill 没有被识别：
 
