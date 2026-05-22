@@ -1,0 +1,20 @@
+{
+  "name": "ai-content-critic",
+  "description": "A Claude Code skill for critiquing AI-generated text, images, slides, posters, and UI with blunt, evidence-based feedback.",
+  "version": "0.1.0",
+  "author": {
+    "name": "AI Content Critic contributors"
+  },
+  "homepage": "https://github.com/YOUR-USERNAME/ai-content-critic",
+  "repository": "https://github.com/YOUR-USERNAME/ai-content-critic",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "ai-content",
+    "critique",
+    "writing",
+    "image-review",
+    "design-review",
+    "roast"
+  ]
+}

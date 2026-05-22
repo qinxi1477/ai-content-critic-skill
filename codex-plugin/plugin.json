@@ -1,0 +1,41 @@
+{
+  "name": "ai-content-critic",
+  "version": "0.1.0",
+  "description": "A cross-agent skill for critiquing AI-generated text, images, slides, posters, and UI with blunt, evidence-based feedback.",
+  "author": {
+    "name": "AI Content Critic contributors"
+  },
+  "homepage": "https://github.com/YOUR-USERNAME/ai-content-critic",
+  "repository": "https://github.com/YOUR-USERNAME/ai-content-critic",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "ai-content",
+    "critique",
+    "writing",
+    "image-review",
+    "design-review",
+    "roast"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AI Content Critic",
+    "shortDescription": "Blunt, actionable critique for AI-generated text and visuals",
+    "longDescription": "Use AI Content Critic to find AI tells, bland writing, weak logic, visual artifacts, layout flaws, and credibility gaps in generated articles, images, slides, posters, UI screenshots, and mixed media.",
+    "developerName": "AI Content Critic contributors",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Use ai-content-critic to review this AI-generated article and tell me what feels fake, weak, or generic.",
+      "Use ai-content-critic to roast this image and give me concrete fixes."
+    ],
+    "websiteURL": "https://github.com/YOUR-USERNAME/ai-content-critic",
+    "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+    "brandColor": "#7C3AED",
+    "screenshots": []
+  }
+}
